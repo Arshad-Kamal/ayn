@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cinema icon "comments-off" (m6-player ICON set, 24-unit grid, 1.9 stroke). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M8.5,5H19a1.5,1.5 0,0 1,1.5 1.5v9a1.5,1.5 0,0 1,-0.6 1.2M15.5,17h-5L6,20.5V17H5a1.5,1.5 0,0 1,-1.5 -1.5v-9c0,-0.5 0.2,-0.9 0.6,-1.2"
+        android:strokeWidth="1.9"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M3,3l18,18"
+        android:strokeWidth="1.9"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cinema icon "skip" (m6 sandboxes' ICON set, 24-unit grid): play to the bar. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M6,5.6v12.8L15,12Z"
+        android:fillColor="#FFFFFFFF" />
+    <path
+        android:pathData="M18,5.5v13"
+        android:strokeWidth="1.9"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round" />
+</vector>

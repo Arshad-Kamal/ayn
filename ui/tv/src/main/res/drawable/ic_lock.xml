@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cinema icon "lock" (master mockup ICON set, 24-unit grid, 1.9 stroke). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M7.5,10.5H16.5A2.5,2.5 0,0 1,19 13V18A2.5,2.5 0,0 1,16.5 20.5H7.5A2.5,2.5 0,0 1,5 18V13A2.5,2.5 0,0 1,7.5 10.5Z"
+        android:strokeWidth="1.9"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M8,10.5V8a4,4 0,0 1,8 0v2.5"
+        android:strokeWidth="1.9"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

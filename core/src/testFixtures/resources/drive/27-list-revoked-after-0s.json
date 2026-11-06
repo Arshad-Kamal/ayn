@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://www.googleapis.com/drive/v3/files?q=name+%3D+%27Ayn+sync%27+and+mimeType+%3D+%27application%2Fvnd.google-apps.folder%27+and+%27root%27+in+parents+and+trashed+%3D+false&fields=files%28id%2Cname%2CmodifiedTime%29%2CnextPageToken&pageSize=1000&spaces=drive",
+    "headers": {
+      "User-Agent": "Ayn (Android)",
+      "Authorization": "Bearer ACCESS-TOKEN"
+    },
+    "body": null
+  },
+  "response": {
+    "code": 401,
+    "headers": {
+      "www-authenticate": "Bearer realm=\"https://accounts.google.com/\", error=\"invalid_token\"",
+      "content-type": "application/json; charset=UTF-8"
+    },
+    "body": "{\n  \"error\": {\n    \"code\": 401,\n    \"message\": \"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.\",\n    \"errors\": [\n      {\n        \"message\": \"Invalid Credentials\",\n        \"domain\": \"global\",\n        \"reason\": \"authError\",\n        \"location\": \"Authorization\",\n        \"locationType\": \"header\"\n      }\n    ],\n    \"status\": \"UNAUTHENTICATED\"\n  }\n}\n"
+  }
+}

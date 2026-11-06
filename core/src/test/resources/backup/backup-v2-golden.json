@@ -1,0 +1,58 @@
+{
+  "bundleVersion": 2,
+  "app": "Ayn",
+  "exportedAtMillis": 1791300000000,
+  "profiles": [
+    {
+      "name": "Arshad",
+      "tint": "teal",
+      "owner": true,
+      "createdAtMillis": 1700000000000,
+      "updatedAtMillis": 1700000001000,
+      "subscriptions": [
+        {
+          "channelUrl": "https://www.youtube.com/channel/UC1JTQBa5QxZCpXrFSkMxmPw",
+          "name": "Raycevick",
+          "avatarUrl": "https://yt3.example/r",
+          "subscribedAtMillis": 1700000002000,
+          "updatedAtMillis": 1700000003000
+        }
+      ],
+      "history": [],
+      "playlists": [],
+      "settings": {
+        "speedPercent": 125,
+        "resume": false,
+        "captionsLanguage": "en-GB",
+        "sponsorBlock": true,
+        "segmentActions": {
+          "sponsor": "skip",
+          "selfpromo": "skip",
+          "interaction": "off",
+          "intro": "bar",
+          "outro": "button",
+          "preview": "button",
+          "hook": "bar",
+          "music_offtopic": "off",
+          "filler": "button"
+        },
+        "skipNote": false,
+        "dearrowTitles": true,
+        "dearrowThumbnails": false,
+        "dislikes": true,
+        "showShorts": true,
+        "updatedAtMillis": 1791200000000
+      }
+    },
+    {
+      "name": "Mira",
+      "tint": "rose",
+      "owner": false,
+      "createdAtMillis": 1700000020000,
+      "updatedAtMillis": 1700000021000,
+      "subscriptions": [],
+      "history": [],
+      "playlists": []
+    }
+  ]
+}

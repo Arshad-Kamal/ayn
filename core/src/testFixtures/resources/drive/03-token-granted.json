@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://oauth2.googleapis.com/token",
+    "headers": {
+      "User-Agent": "Ayn (Android)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "body": "client_id=CLIENT-ID.apps.googleusercontent.com&client_secret=CLIENT-SECRET&device_code=DEVICE-CODE&grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Adevice_code"
+  },
+  "response": {
+    "code": 200,
+    "headers": {
+      "content-type": "application/json; charset=utf-8"
+    },
+    "body": "{\n  \"access_token\": \"ACCESS-TOKEN\",\n  \"expires_in\": 3599,\n  \"refresh_token\": \"REFRESH-TOKEN\",\n  \"scope\": \"https://www.googleapis.com/auth/drive.file\",\n  \"token_type\": \"Bearer\",\n  \"refresh_token_expires_in\": 604799\n}"
+  }
+}

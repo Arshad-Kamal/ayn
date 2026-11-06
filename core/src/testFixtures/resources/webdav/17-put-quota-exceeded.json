@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "PUT",
+    "path": "/remote.php/dav/files/smoke/Ayn/0f3c2a9e-device-a.ayn",
+    "headers": {
+      "User-Agent": "Ayn (Android)",
+      "Authorization": "Basic c21va2U6QVBQLVBBU1NXT1JE",
+      "Content-Type": "application/octet-stream"
+    },
+    "body": {
+      "omittedBytes": 5242912
+    }
+  },
+  "response": {
+    "code": 507,
+    "headers": {
+      "Content-Type": "application/xml; charset=utf-8"
+    },
+    "body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<d:error xmlns:d=\"DAV:\" xmlns:s=\"http://sabredav.org/ns\">\n  <s:exception>Sabre\\DAV\\Exception\\InsufficientStorage</s:exception>\n  <s:message>Insufficient space in /Ayn/0f3c2a9e-device-a.ayn, 5242912 required, 0 available</s:message>\n</d:error>\n"
+  }
+}

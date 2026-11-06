@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cinema icon "play" (master mockup ICON set, 24-unit grid, 1.9 stroke). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M8,5.6V18.4A1,1 0,0 0,9.5 19.26L19.8,12.86A1,1 0,0 0,19.8 11.14L9.5,4.74A1,1 0,0 0,8 5.6Z"
+        android:fillColor="#FFFFFFFF" />
+</vector>

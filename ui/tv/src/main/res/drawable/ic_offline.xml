@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cinema icon "offline" (master mockup ICON set, 24-unit grid, 1.9 stroke). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M3,3L21,21"
+        android:strokeWidth="1.9"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M8.5,16.5A5,5 0,0 1,15.5 16.5M5,13A10,10 0,0 1,9.7 10.3M19,13A10,10 0,0 0,16.8 11.4M2,9.5A15,15 0,0 1,6.3 6.7M22,9.5A15,15 0,0 0,10.5 5.1"
+        android:strokeWidth="1.9"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M13,19.5A1,1 0,1 1,11 19.5A1,1 0,1 1,13 19.5Z"
+        android:fillColor="#FFFFFFFF" />
+</vector>

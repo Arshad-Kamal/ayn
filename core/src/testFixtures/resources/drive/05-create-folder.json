@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://www.googleapis.com/drive/v3/files?fields=id%2Cname%2Cmd5Checksum%2CmodifiedTime%2Csize",
+    "headers": {
+      "User-Agent": "Ayn (Android)",
+      "Authorization": "Bearer ACCESS-TOKEN",
+      "Content-Type": "application/json; charset=UTF-8"
+    },
+    "body": "{\"name\": \"Ayn sync\", \"mimeType\": \"application/vnd.google-apps.folder\", \"parents\": [\"root\"]}"
+  },
+  "response": {
+    "code": 200,
+    "headers": {
+      "content-type": "application/json; charset=UTF-8"
+    },
+    "body": "{\n  \"id\": \"FOLDER-ID\",\n  \"name\": \"Ayn sync\",\n  \"modifiedTime\": \"2026-11-03T00:31:10.578Z\"\n}\n"
+  }
+}

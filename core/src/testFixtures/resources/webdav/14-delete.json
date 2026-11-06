@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "DELETE",
+    "path": "/remote.php/dav/files/smoke/Ayn/0f3c2a9e-device-a.ayn",
+    "headers": {
+      "User-Agent": "Ayn (Android)",
+      "Authorization": "Basic c21va2U6QVBQLVBBU1NXT1JE"
+    },
+    "body": null
+  },
+  "response": {
+    "code": 204,
+    "headers": {
+      "X-User-Id": "smoke"
+    },
+    "body": ""
+  }
+}

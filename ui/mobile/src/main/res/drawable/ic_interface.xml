@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cinema icon "interface" (m6-settings, 24-unit grid, 1.9 stroke): Settings' Interface. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M6,4.5h12a2.5,2.5 0,0 1,2.5 2.5v10a2.5,2.5 0,0 1,-2.5 2.5H6a2.5,2.5 0,0 1,-2.5 -2.5V7A2.5,2.5 0,0 1,6 4.5z"
+        android:strokeWidth="1.9"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M3.5,9h17M9,9v10.5"
+        android:strokeWidth="1.9"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

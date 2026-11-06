@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/ocs/v2.php/cloud/user?format=json",
+    "headers": {
+      "User-Agent": "Ayn (Android)",
+      "Authorization": "Basic bWlyYTpBUFAtUEFTU1dPUkQtRU1BSUw=",
+      "OCS-APIRequest": "true",
+      "Accept": "application/json"
+    },
+    "body": null
+  },
+  "response": {
+    "code": 200,
+    "headers": {
+      "X-User-Id": "mira",
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": "{\"ocs\":{\"meta\":{\"status\":\"ok\",\"statuscode\":200,\"message\":\"OK\"},\"data\":{\"enabled\":true,\"id\":\"mira\",\"firstLoginTimestamp\":1793387099,\"lastLoginTimestamp\":1793387099,\"lastLogin\":1793387099000,\"backend\":\"Database\",\"subadmin\":[],\"quota\":{\"free\":-3,\"used\":38539003,\"total\":-3,\"relative\":0,\"quota\":-3},\"manager\":\"\",\"avatarScope\":\"v2-federated\",\"email\":\"mira@example.org\",\"emailScope\":\"v2-federated\",\"additional_mail\":[],\"additional_mailScope\":[],\"displayname\":\"mira\",\"display-name\":\"mira\",\"displaynameScope\":\"v2-federated\",\"phone\":\"\",\"phoneScope\":\"v2-local\",\"address\":\"\",\"addressScope\":\"v2-local\",\"website\":\"\",\"websiteScope\":\"v2-local\",\"twitter\":\"\",\"twitterScope\":\"v2-local\",\"fediverse\":\"\",\"fediverseScope\":\"v2-local\",\"organisation\":\"\",\"organisationScope\":\"v2-local\",\"role\":\"\",\"roleScope\":\"v2-local\",\"headline\":\"\",\"headlineScope\":\"v2-local\",\"biography\":\"\",\"biographyScope\":\"v2-local\",\"profile_enabled\":\"1\",\"profile_enabledScope\":\"v2-local\",\"pronouns\":\"\",\"pronounsScope\":\"v2-federated\",\"groups\":[],\"language\":\"en\",\"locale\":\"\",\"notify_email\":null,\"backendCapabilities\":{\"setDisplayName\":true,\"setPassword\":true}}}}"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "bundleVersion": 5,
+  "app": "Ayn",
+  "exportedAtMillis": 1791600000000,
+  "profiles": [
+    {
+      "name": "Arshad",
+      "tint": "amber",
+      "owner": true,
+      "createdAtMillis": 1700000000000,
+      "updatedAtMillis": 1700000001000,
+      "subscriptions": [],
+      "history": [],
+      "playlists": [],
+      "settings": {
+        "speedPercent": 100,
+        "resume": true,
+        "sponsorBlock": true,
+        "segmentActions": {
+          "sponsor": "button"
+        },
+        "skipNote": true,
+        "dearrowTitles": true,
+        "dearrowThumbnails": true,
+        "dislikes": true,
+        "showShorts": false,
+        "updatedAtMillis": 1791400000000,
+        "restrictedMode": "strict",
+        "hideLive": true,
+        "maxLengthMinutes": 60,
+        "filterPacks": {
+          "halalOnly": true,
+          "lootBoxes": true
+        }
+      },
+      "rules": [
+        {
+          "kind": "keyword",
+          "value": "prank",
+          "byOwner": false,
+          "addedAtMillis": 1791410000000
+        }
+      ]
+    },
+    {
+      "name": "Zainab",
+      "tint": "violet",
+      "owner": false,
+      "createdAtMillis": 1700000020000,
+      "updatedAtMillis": 1700000021000,
+      "subscriptions": [
+        {
+          "channelUrl": "https://www.youtube.com/channel/UCVzLLZkDuFGAE2BGdBuBNBg",
+          "name": "Bluey",
+          "subscribedAtMillis": 1791420000000,
+          "updatedAtMillis": 1791420000000
+        }
+      ],
+      "history": [],
+      "playlists": [],
+      "kids": true,
+      "restrictions": {
+        "restrictedMode": "strict",
+        "hideShorts": true,
+        "hideLive": true,
+        "hideMembersOnly": true,
+        "dailyLimitMinutes": {
+          "monday": 60,
+          "saturday": 90
+        },
+        "bedtimeStartMinute": 1170,
+        "bedtimeEndMinute": 420,
+        "updatedAtMillis": 1791430000000,
+        "filterPacks": {
+          "harmfulForKids": true,
+          "overstimulating": true,
+          "islamicOnly": true,
+          "islamicChannels": {
+            "UCmMcOjsVehVlEOteyrhjI2Q": false,
+            "UCdAnnrdcG0t8x1qDjVgaIfQ": true
+          }
+        }
+      },
+      "rules": [
+        {
+          "kind": "approved_video",
+          "value": "JsBZOcqZerk",
+          "byOwner": true,
+          "title": "Extraordinary Wildlife Of The Arctic",
+          "channelName": "BBC Earth",
+          "channelUrl": "https://www.youtube.com/channel/UCwmZiChSryoWQCZMIQezgTg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/JsBZOcqZerk/mqdefault.jpg",
+          "durationSeconds": 1943,
+          "addedAtMillis": 1791440000000
+        },
+        {
+          "kind": "video",
+          "value": "dQw4w9WgXcQ",
+          "byOwner": true,
+          "title": "Never Gonna",
+          "addedAtMillis": 1791450000000
+        }
+      ]
+    }
+  ]
+}

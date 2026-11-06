@@ -1,0 +1,32 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Kotlin
+.kotlin/
+
+# Android / IDE
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing material — never commit
+*.jks
+*.keystore
+*.p12
+keystore.properties
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Scratch (build logs, renders, probes in progress): never committed
+.tmp/
+
+# Python bytecode (tools/) and local secrets
+__pycache__/
+.env

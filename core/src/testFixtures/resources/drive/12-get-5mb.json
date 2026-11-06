@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://www.googleapis.com/drive/v3/files/FILE-ID-09?alt=media",
+    "headers": {
+      "User-Agent": "Ayn (Android)",
+      "Authorization": "Bearer ACCESS-TOKEN"
+    },
+    "body": null
+  },
+  "response": {
+    "code": 200,
+    "headers": {
+      "content-type": "application/octet-stream"
+    },
+    "body": {
+      "omittedBytes": 5000000
+    }
+  }
+}

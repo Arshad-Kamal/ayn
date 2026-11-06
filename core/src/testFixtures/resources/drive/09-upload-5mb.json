@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&fields=id%2Cname%2Cmd5Checksum%2CmodifiedTime%2Csize",
+    "headers": {
+      "User-Agent": "Ayn (Android)",
+      "Authorization": "Bearer ACCESS-TOKEN",
+      "Content-Type": "multipart/related; boundary=BOUNDARY"
+    },
+    "body": {
+      "omittedBytes": 5000244
+    }
+  },
+  "response": {
+    "code": 200,
+    "headers": {
+      "content-type": "application/json; charset=UTF-8"
+    },
+    "body": "{\n  \"id\": \"FILE-ID-09\",\n  \"name\": \"smoke-big.ayn\",\n  \"modifiedTime\": \"2026-11-03T00:31:14.524Z\",\n  \"md5Checksum\": \"b2802cb55399f7a17f1ba2b9c3dd2b8a\",\n  \"size\": \"5000000\"\n}\n"
+  }
+}

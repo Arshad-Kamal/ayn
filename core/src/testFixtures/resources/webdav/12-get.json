@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/remote.php/dav/files/smoke/Ayn/0f3c2a9e-device-a.ayn",
+    "headers": {
+      "User-Agent": "Ayn (Android)",
+      "Authorization": "Basic c21va2U6QVBQLVBBU1NXT1JE"
+    },
+    "body": null
+  },
+  "response": {
+    "code": 200,
+    "headers": {
+      "Last-Modified": "Fri, 30 Oct 2026 05:53:14 GMT",
+      "ETag": "\"bf2d0100e1494a275824e5b0a21398f7\"",
+      "X-User-Id": "smoke",
+      "OC-ETag": "\"bf2d0100e1494a275824e5b0a21398f7\"",
+      "Content-Disposition": "attachment; filename*=UTF-8''0f3c2a9e-device-a.ayn; filename=\"0f3c2a9e-device-a.ayn\"",
+      "X-Accel-Buffering": "no",
+      "Content-Type": "application/octet-stream"
+    },
+    "body": {
+      "omittedBytes": 5242912
+    }
+  }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cinema kit icon "scale" (live-tv-player chat-viewbtn, 24-unit grid, 1.9 stroke): the chat's View. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M5.5,5h13a2,2 0,0 1,2 2v8a2,2 0,0 1,-2 2h-13a2,2 0,0 1,-2 -2v-8a2,2 0,0 1,2 -2zM8,20h8M9,9.5h2.5M9,9.5V12M15,12.5h-2.5M15,12.5V10"
+        android:strokeWidth="1.9"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

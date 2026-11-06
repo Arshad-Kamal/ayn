@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cinema icon "thumb_down" (m6-settings, 24-unit grid, 1.9 stroke): Settings' Dislikes. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M17,12.5V4h2.5v8.5zM17,12.5 L13,20c-1.6,0 -2.6,-1.1 -2.3,-2.7l0.6,-3.3H6a2,2 0,0 1,-2 -2.3l1.1,-6A2,2 0,0 1,7 4h10"
+        android:strokeWidth="1.9"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

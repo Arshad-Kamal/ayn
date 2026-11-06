@@ -1,0 +1,87 @@
+{
+  "bundleVersion": 6,
+  "app": "Ayn",
+  "exportedAtMillis": 9100,
+  "profiles": [
+    {
+      "syncId": "p-owner",
+      "name": "Arshad",
+      "tint": "amber",
+      "owner": true,
+      "createdAtMillis": 10,
+      "updatedAtMillis": 20,
+      "subscriptions": [
+        {"channelUrl": "https://www.youtube.com/channel/UCcccccccccccccccccccccc", "name": "C", "subscribedAtMillis": 160, "updatedAtMillis": 160},
+        {"channelUrl": "https://www.youtube.com/channel/UCaaaaaaaaaaaaaaaaaaaaaa", "name": "A new", "subscribedAtMillis": 100, "updatedAtMillis": 120}
+      ],
+      "history": [
+        {"videoId": "v4ddddddddd", "title": "Four", "positionMs": 0, "watched": false, "lastWatchedAtMillis": 250, "updatedAtMillis": 250},
+        {"videoId": "v2bbbbbbbbb", "title": "Two", "positionMs": 90000, "durationMs": 600000, "watched": false, "lastWatchedAtMillis": 220, "updatedAtMillis": 220},
+        {"videoId": "v1aaaaaaaaa", "title": "One", "positionMs": 100000, "durationMs": 600000, "watched": false, "lastWatchedAtMillis": 210, "updatedAtMillis": 210}
+      ],
+      "playlists": [
+        {
+          "syncId": "pl-road",
+          "name": "Road trip 2026",
+          "createdAtMillis": 290,
+          "updatedAtMillis": 310,
+          "videos": [
+            {"videoId": "v1aaaaaaaaa", "title": "One", "durationSeconds": 600, "addedAtMillis": 301, "updatedAtMillis": 301},
+            {"videoId": "v5eeeeeeeee", "title": "Five", "durationSeconds": 60, "addedAtMillis": 305, "updatedAtMillis": 305}
+          ]
+        }
+      ],
+      "watchLater": {
+        "syncId": "watch-later",
+        "name": "Watch later",
+        "createdAtMillis": 390,
+        "updatedAtMillis": 415,
+        "videos": [
+          {"videoId": "v6fffffffff", "title": "Six", "durationSeconds": 60, "addedAtMillis": 400, "updatedAtMillis": 400},
+          {"videoId": "v7ggggggggg", "title": "Seven", "durationSeconds": 60, "addedAtMillis": 410, "updatedAtMillis": 410},
+          {"videoId": "v8hhhhhhhhh", "title": "Eight", "durationSeconds": 60, "addedAtMillis": 415, "updatedAtMillis": 415}
+        ]
+      },
+      "settings": {
+        "speedPercent": 150, "resume": true, "sponsorBlock": true, "segmentActions": {"sponsor": "skip"}, "skipNote": true,
+        "dearrowTitles": true, "dearrowThumbnails": true, "dislikes": true, "showShorts": false, "updatedAtMillis": 510
+      },
+      "hiddenVideos": [{"videoId": "v10jjjjjjjj", "hiddenAtMillis": 610}],
+      "hiddenChannels": [{"channelUrl": "https://www.youtube.com/channel/UCeeeeeeeeeeeeeeeeeeeeee", "hiddenAtMillis": 620}]
+    },
+    {
+      "syncId": "p-mira",
+      "name": "Mira",
+      "tint": "teal",
+      "owner": false,
+      "createdAtMillis": 30,
+      "updatedAtMillis": 60,
+      "subscriptions": [
+        {"channelUrl": "https://www.youtube.com/channel/UCaaaaaaaaaaaaaaaaaaaaaa", "name": "A new", "subscribedAtMillis": 120, "updatedAtMillis": 120}
+      ],
+      "history": [],
+      "playlists": []
+    },
+    {
+      "syncId": "p-guest",
+      "name": "Guest",
+      "tint": "teal",
+      "owner": false,
+      "createdAtMillis": 70,
+      "updatedAtMillis": 70,
+      "subscriptions": [
+        {"channelUrl": "https://www.youtube.com/channel/UCdddddddddddddddddddddd", "name": "D", "subscribedAtMillis": 71, "updatedAtMillis": 71}
+      ],
+      "history": [],
+      "playlists": []
+    }
+  ],
+  "removals": [
+    {"profileSyncId": "p-guest", "kind": "subscription", "itemKey": "https://www.youtube.com/channel/UCaaaaaaaaaaaaaaaaaaaaaa", "removedAtMillis": 75},
+    {"profileSyncId": "p-owner", "kind": "playlist", "itemKey": "pl-gym", "removedAtMillis": 320},
+    {"profileSyncId": "p-owner", "kind": "playlist", "itemKey": "pl-kept", "removedAtMillis": 330},
+    {"profileSyncId": "p-owner", "kind": "playlistItem", "itemKey": "pl-road/v2bbbbbbbbb", "removedAtMillis": 309},
+    {"profileSyncId": "p-owner", "kind": "subscription", "itemKey": "https://www.youtube.com/channel/UCbbbbbbbbbbbbbbbbbbbbbb", "removedAtMillis": 140},
+    {"profileSyncId": "p-owner", "kind": "watch", "itemKey": "v3ccccccccc", "removedAtMillis": 240}
+  ]
+}

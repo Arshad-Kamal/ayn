@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "DELETE",
+    "url": "https://www.googleapis.com/drive/v3/files/FILE-ID-09",
+    "headers": {
+      "User-Agent": "Ayn (Android)",
+      "Authorization": "Bearer ACCESS-TOKEN"
+    },
+    "body": null
+  },
+  "response": {
+    "code": 404,
+    "headers": {
+      "content-type": "application/json; charset=UTF-8"
+    },
+    "body": "{\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"File not found: FILE-ID-09.\",\n    \"errors\": [\n      {\n        \"message\": \"File not found: FILE-ID-09.\",\n        \"domain\": \"global\",\n        \"reason\": \"notFound\",\n        \"location\": \"fileId\",\n        \"locationType\": \"parameter\"\n      }\n    ]\n  }\n}\n"
+  }
+}

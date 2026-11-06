@@ -1,0 +1,5 @@
+HSPLcom/arshad/ayn/**->**(**)**
+HSPLcom/github/libretube/**->**(**)**
+HSPLandroidx/media3/**->**(**)**
+HSPLokhttp3/**->**(**)**
+HSPLokio/**->**(**)**

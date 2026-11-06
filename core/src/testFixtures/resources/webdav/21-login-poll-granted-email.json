@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/index.php/login/v2/poll",
+    "headers": {
+      "User-Agent": "Ayn (Android)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "body": "token=POLL-TOKEN-EMAIL"
+  },
+  "response": {
+    "code": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": "{\"server\":\"https:\\/\\/cloud.example.org\",\"loginName\":\"mira\",\"appPassword\":\"APP-PASSWORD-EMAIL\"}"
+  }
+}

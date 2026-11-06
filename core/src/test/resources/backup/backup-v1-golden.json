@@ -1,0 +1,15 @@
+{"bundleVersion":1,"app":"YouTube KE","exportedAtMillis":1759600000000,"profiles":[
+{"name":"Arshad","tint":"teal","owner":true,"createdAtMillis":1700000000000,"updatedAtMillis":1700000001000,
+"subscriptions":[
+{"channelUrl":"https://www.youtube.com/channel/UC1JTQBa5QxZCpXrFSkMxmPw","name":"Raycevick","avatarUrl":"https://yt3.example/r","subscribedAtMillis":1700000002000,"updatedAtMillis":1700000003000},
+{"channelUrl":"https://www.youtube.com/channel/UCFl7yKfcRcFmIUbKeCA-SJQ","name":"Joji","subscribedAtMillis":1700000004000,"updatedAtMillis":1700000005000}],
+"history":[
+{"videoId":"dQw4w9WgXcQ","title":"Never Gonna","uploaderName":"Rick","uploaderUrl":"https://www.youtube.com/channel/UCuAXFkgsw1L7xaCfnd5JJOw","thumbnailUrl":"https://i.example/d.jpg","positionMs":120000,"durationMs":213000,"watched":false,"lastWatchedAtMillis":1700000006000,"updatedAtMillis":1700000007000},
+{"videoId":"jNQXAC9IVRw","positionMs":0,"watched":true,"lastWatchedAtMillis":1700000008000,"updatedAtMillis":1700000009000}],
+"playlists":[
+{"name":"Road trip","createdAtMillis":1700000010000,"updatedAtMillis":1700000011000,"videos":[
+{"videoId":"jNQXAC9IVRw","title":"Me at the zoo","uploaderName":"jawed","uploaderUrl":"https://www.youtube.com/channel/UC4QobU6STFB0P71PMvOGN5A","durationSeconds":19,"uploadDateMillis":1114000000000,"thumbnailUrl":"https://i.example/z.jpg","addedAtMillis":1700000012000,"updatedAtMillis":1700000013000},
+{"videoId":"dQw4w9WgXcQ","title":"Never Gonna","durationSeconds":-1,"addedAtMillis":1700000014000,"updatedAtMillis":1700000015000}]}],
+"watchLater":{"name":"Watch later","createdAtMillis":1700000016000,"updatedAtMillis":1700000017000,"videos":[
+{"videoId":"9bZkp7q19f0","title":"Gangnam Style","uploaderName":"officialpsy","durationSeconds":253,"addedAtMillis":1700000018000,"updatedAtMillis":1700000019000}]}},
+{"name":"Mira","tint":"rose","owner":false,"createdAtMillis":1700000020000,"updatedAtMillis":1700000021000,"subscriptions":[],"history":[],"playlists":[]}]}

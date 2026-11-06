@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://oauth2.googleapis.com/device/code",
+    "headers": {
+      "User-Agent": "Ayn (Android)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "body": "client_id=CLIENT-ID.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file"
+  },
+  "response": {
+    "code": 200,
+    "headers": {
+      "content-type": "application/json; charset=utf-8"
+    },
+    "body": "{\n  \"device_code\": \"DEVICE-CODE\",\n  \"user_code\": \"USER-CODE\",\n  \"expires_in\": 1800,\n  \"interval\": 5,\n  \"verification_url\": \"https://www.google.com/device\"\n}"
+  }
+}

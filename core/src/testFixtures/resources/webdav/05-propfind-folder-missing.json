@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "PROPFIND",
+    "path": "/remote.php/dav/files/smoke/Ayn/",
+    "headers": {
+      "User-Agent": "Ayn (Android)",
+      "Authorization": "Basic c21va2U6QVBQLVBBU1NXT1JE",
+      "Content-Type": "application/xml; charset=utf-8",
+      "Depth": "1"
+    },
+    "body": "<?xml version=\"1.0\"?><d:propfind xmlns:d=\"DAV:\"><d:prop><d:getetag/><d:getlastmodified/><d:getcontentlength/><d:resourcetype/></d:prop></d:propfind>"
+  },
+  "response": {
+    "code": 404,
+    "headers": {
+      "Vary": "Brief,Prefer",
+      "DAV": "1, 3, extended-mkcol, access-control, calendarserver-principal-property-search, nc-paginate, nextcloud-checksum-update, nc-calendar-search, nc-enable-birthday-calendar",
+      "Content-Type": "application/xml; charset=utf-8"
+    },
+    "body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<d:error xmlns:d=\"DAV:\" xmlns:s=\"http://sabredav.org/ns\">\n  <s:exception>Sabre\\DAV\\Exception\\NotFound</s:exception>\n  <s:message>File with name //Ayn could not be located</s:message>\n</d:error>\n"
+  }
+}

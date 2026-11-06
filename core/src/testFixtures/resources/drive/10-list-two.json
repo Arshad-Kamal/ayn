@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://www.googleapis.com/drive/v3/files?q=%27FOLDER-ID%27+in+parents+and+trashed+%3D+false&fields=files%28id%2Cname%2Cmd5Checksum%2CmodifiedTime%2Csize%29%2CnextPageToken&pageSize=1000&spaces=drive",
+    "headers": {
+      "User-Agent": "Ayn (Android)",
+      "Authorization": "Bearer ACCESS-TOKEN"
+    },
+    "body": null
+  },
+  "response": {
+    "code": 200,
+    "headers": {
+      "content-type": "application/json; charset=UTF-8"
+    },
+    "body": "{\n  \"files\": [\n    {\n      \"md5Checksum\": \"b2802cb55399f7a17f1ba2b9c3dd2b8a\",\n      \"size\": \"5000000\",\n      \"id\": \"FILE-ID-09\",\n      \"name\": \"smoke-big.ayn\",\n      \"modifiedTime\": \"2026-11-03T00:31:14.524Z\"\n    },\n    {\n      \"md5Checksum\": \"658b2ab69b6cac4754266667fb4a2767\",\n      \"size\": \"47\",\n      \"id\": \"FILE-ID-08\",\n      \"name\": \"smoke-device.ayn\",\n      \"modifiedTime\": \"2026-11-03T00:31:12.476Z\"\n    }\n  ]\n}\n"
+  }
+}

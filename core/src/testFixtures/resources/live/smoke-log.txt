@@ -1,0 +1,26 @@
+live rFZHOHl-L8A: VISIONOS player OK, isLive=True
+saved hls-multivariant.m3u8 (11996 chars)
+variants: 7; BANDWIDTH=507418,RESOLUTION=426x240,FRAME-RATE=30,VIDEO-RANGE=SDR,AUDIO="233",CLOSED-CAPTIONS=NONE | BANDWIDTH=591418,RESOLUTION=426x240,FRAME-RATE=30,VIDEO-RANGE=SDR,AUDIO="234",CLOSED-CAPTIONS=NONE | BANDWIDTH=962461,RESOLUTION=640x360,FRAME-RATE=30,VIDEO-RANGE=SDR,AUDIO="234",CLOSED-CAPTIONS=NONE | BANDWIDTH=1282517,RESOLUTION=854x480,FRAME-RATE=30,VIDEO-RANGE=SDR,AUDIO="234",CLOSED-CAPTIONS=NONE | BANDWIDTH=2447970,RESOLUTION=1280x720,FRAME-RATE=30,VIDEO-RANGE=SDR,AUDIO="234",CLOSED-CAPTIONS=NONE | BANDWIDTH=269034,RESOLUTION=256x144,FRAME-RATE=15,VIDEO-RANGE=SDR,AUDIO="233",CLOSED-CAPTIONS=NONE | BANDWIDTH=4561186,RESOLUTION=1920x1080,FRAME-RATE=30,VIDEO-RANGE=SDR,AUDIO="234",CLOSED-CAPTIONS=NONE
+saved hls-media.m3u8 (886952 chars)
+saved next-live.json (750550 chars)
+live chat state: live chat; /next header menu: ['Top chat', 'Live chat']
+saved live-chat-first.json (185909 chars)
+get_live_chat (page token): 67 messages; next: ['invalidationContinuationData']
+saved live-chat-menu-0.json (185462 chars)
+get_live_chat [Top chat]: 67 messages
+saved live-chat-menu-1.json (137111 chars)
+get_live_chat [Live chat]: 68 messages
+saved next-Z1sqWFs86uU.json (417712 chars)
+Z1sqWFs86uU: replay
+saved replay-Z1sqWFs86uU-first.json (165437 chars)
+saved replay-Z1sqWFs86uU-middle.json (61251 chars)
+replay Z1sqWFs86uU: 40 pages walked (cap 40), last offset 3780565 ms, more after: True
+length 13090 s, isLive None, isLiveContent True
+saved replay-Z1sqWFs86uU-seek.json (124911 chars)
+seek: seek to 6545000 ms: 98 actions, more after: True
+saved replay-Z1sqWFs86uU-last.json (121429 chars)
+last: seek to 12970000 ms: 96 actions, more after: True
+saved next-ROboUHfPUrU.json (387454 chars)
+ROboUHfPUrU: no chat: {'runs': [{'text': 'Chat is disabled for this live stream.'}]}
+saved next-Iz6qdzVCN9g.json (459969 chars)
+Iz6qdzVCN9g: no chat: {'runs': [{'text': 'Live chat replay was turned off for this video.'}]}

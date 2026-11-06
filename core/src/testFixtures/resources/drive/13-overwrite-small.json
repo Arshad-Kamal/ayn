@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "PATCH",
+    "url": "https://www.googleapis.com/upload/drive/v3/files/FILE-ID-08?uploadType=media&fields=id%2Cname%2Cmd5Checksum%2CmodifiedTime%2Csize",
+    "headers": {
+      "User-Agent": "Ayn (Android)",
+      "Authorization": "Bearer ACCESS-TOKEN",
+      "Content-Type": "application/octet-stream"
+    },
+    "body": "AYN-SYNC-SMOKE v2 68c356267303c5d1a66cd4954dfacdb3"
+  },
+  "response": {
+    "code": 200,
+    "headers": {
+      "content-type": "application/json; charset=UTF-8"
+    },
+    "body": "{\n  \"id\": \"FILE-ID-08\",\n  \"name\": \"smoke-device.ayn\",\n  \"modifiedTime\": \"2026-11-03T00:31:18.281Z\",\n  \"md5Checksum\": \"524cbc1bc06fb47daaa5b6b13cfce8b4\",\n  \"size\": \"50\"\n}\n"
+  }
+}

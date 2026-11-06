@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Ayn mark: the isolated ع of Noto Sans Arabic (OFL-1.1) at weight 700, as outlines
+     Font units, y flipped by the group. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="16dp"
+    android:height="23.3dp"
+    android:viewportWidth="709"
+    android:viewportHeight="1032">
+    <group android:translateX="24" android:translateY="598" android:scaleY="-1">
+        <path android:fillColor="#FFFFFFFF" android:pathData="M372 -394Q305 -394 241.5 -378.0Q178 -362 127.0 -327.5Q76 -293 46.0 -239.0Q16 -185 16 -109Q16 -27 49.0 41.5Q82 110 142.0 163.0Q202 216 284.5 251.5Q367 287 465 302L498 170Q410 154 345.5 128.0Q281 102 239.0 67.0Q197 32 176.5 -8.5Q156 -49 156 -94Q156 -130 169.5 -157.0Q183 -184 206.0 -202.5Q229 -221 257.0 -232.5Q285 -244 315.0 -249.0Q345 -254 372 -254Q441 -254 500.5 -241.0Q560 -228 605 -209L645 -338Q621 -350 577.5 -363.0Q534 -376 480.5 -385.0Q427 -394 372 -394ZM173 160Q138 174 108.5 200.0Q79 226 61.5 264.5Q44 303 44 353Q44 416 77.0 462.0Q110 508 165.0 533.0Q220 558 285 558Q317 558 344.5 554.0Q372 550 401 542L379 409Q358 414 336.0 417.0Q314 420 297 420Q262 420 236.5 410.0Q211 400 197.5 381.5Q184 363 184 338Q184 318 196.5 300.0Q209 282 229.0 268.5Q249 255 273.0 246.5Q297 238 320 237Z" />
+    </group>
+</vector>

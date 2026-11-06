@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LIVE.0 icon "wrench" (live-tv-player LVK set, 24-unit grid, 1.9 stroke). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M14.5,4.5a4.5,4.5 0,0 0,-4.2 6.1L4.5,16.4 7.6,19.5l5.8,-5.8a4.5,4.5 0,0 0,6.1 -4.2l-2.6,2.6 -2.8,-0.6 -0.6,-2.8z"
+        android:strokeWidth="1.9"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

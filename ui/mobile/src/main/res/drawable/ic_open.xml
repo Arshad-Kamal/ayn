@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cinema icon "open" (m8-sync-phone ICON set, 24-unit grid, 1.9 stroke): opens a page in the browser. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M13.5,4.5H19.5V10.5M19.5,4.5L11,13M18,14V18.5A1,1 0,0 1,17 19.5H5.5A1,1 0,0 1,4.5 18.5V7A1,1 0,0 1,5.5 6H10"
+        android:strokeWidth="1.9"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

@@ -1,0 +1,91 @@
+{
+  "bundleVersion": 6,
+  "app": "Ayn",
+  "exportedAtMillis": 9000,
+  "profiles": [
+    {
+      "syncId": "p-owner",
+      "name": "Arshad",
+      "tint": "amber",
+      "owner": true,
+      "createdAtMillis": 10,
+      "updatedAtMillis": 20,
+      "subscriptions": [
+        {"channelUrl": "https://www.youtube.com/channel/UCdddddddddddddddddddddd", "name": "D", "subscribedAtMillis": 170, "updatedAtMillis": 170},
+        {"channelUrl": "https://www.youtube.com/channel/UCbbbbbbbbbbbbbbbbbbbbbb", "name": "B", "subscribedAtMillis": 130, "updatedAtMillis": 130},
+        {"channelUrl": "https://www.youtube.com/channel/UCaaaaaaaaaaaaaaaaaaaaaa", "name": "A old", "subscribedAtMillis": 100, "updatedAtMillis": 110}
+      ],
+      "history": [
+        {"videoId": "v3ccccccccc", "title": "Three", "positionMs": 1000, "durationMs": 600000, "watched": false, "lastWatchedAtMillis": 230, "updatedAtMillis": 230},
+        {"videoId": "v2bbbbbbbbb", "title": "Two", "positionMs": 50000, "durationMs": 600000, "watched": false, "lastWatchedAtMillis": 220, "updatedAtMillis": 220},
+        {"videoId": "v1aaaaaaaaa", "title": "One", "positionMs": 300000, "durationMs": 600000, "watched": false, "lastWatchedAtMillis": 200, "updatedAtMillis": 200}
+      ],
+      "playlists": [
+        {
+          "syncId": "pl-road",
+          "name": "Road trip",
+          "createdAtMillis": 290,
+          "updatedAtMillis": 302,
+          "videos": [
+            {"videoId": "v1aaaaaaaaa", "title": "One", "durationSeconds": 600, "addedAtMillis": 301, "updatedAtMillis": 301},
+            {"videoId": "v2bbbbbbbbb", "title": "Two", "durationSeconds": 600, "addedAtMillis": 302, "updatedAtMillis": 302}
+          ]
+        },
+        {"syncId": "pl-gym", "name": "Gym", "createdAtMillis": 311, "updatedAtMillis": 315, "videos": []},
+        {
+          "syncId": "pl-kept",
+          "name": "Edited after",
+          "createdAtMillis": 312,
+          "updatedAtMillis": 340,
+          "videos": [{"videoId": "v4ddddddddd", "title": "Four", "durationSeconds": -1, "addedAtMillis": 340, "updatedAtMillis": 340}]
+        }
+      ],
+      "watchLater": {
+        "syncId": "watch-later",
+        "name": "Watch later",
+        "createdAtMillis": 390,
+        "updatedAtMillis": 400,
+        "videos": [{"videoId": "v6fffffffff", "title": "Six", "durationSeconds": 60, "addedAtMillis": 400, "updatedAtMillis": 400}]
+      },
+      "settings": {
+        "speedPercent": 125, "resume": true, "sponsorBlock": true, "segmentActions": {"sponsor": "skip"}, "skipNote": true,
+        "dearrowTitles": true, "dearrowThumbnails": true, "dislikes": true, "showShorts": false, "updatedAtMillis": 500
+      },
+      "hiddenVideos": [{"videoId": "v9iiiiiiiii", "hiddenAtMillis": 600}],
+      "rules": [{"kind": "keyword", "value": "prank", "byOwner": false, "addedAtMillis": 700}]
+    },
+    {
+      "syncId": "p-mira",
+      "name": "Mira",
+      "tint": "rose",
+      "owner": false,
+      "createdAtMillis": 30,
+      "updatedAtMillis": 50,
+      "subscriptions": [],
+      "history": [],
+      "playlists": [],
+      "watchLater": {"syncId": "watch-later", "name": "Watch later", "createdAtMillis": 31, "updatedAtMillis": 31, "videos": []},
+      "restrictions": {"restrictedMode": "moderate", "hideShorts": true, "hideLive": false, "hideMembersOnly": false, "updatedAtMillis": 800}
+    },
+    {
+      "syncId": "p-zainab",
+      "name": "Zainab",
+      "tint": "violet",
+      "owner": false,
+      "kids": true,
+      "createdAtMillis": 40,
+      "updatedAtMillis": 40,
+      "subscriptions": [],
+      "history": [],
+      "playlists": [],
+      "rules": [{"kind": "approved_video", "value": "JsBZOcqZerk", "byOwner": true, "title": "Arctic", "addedAtMillis": 900}]
+    }
+  ],
+  "removals": [
+    {"profileSyncId": "p-guest", "kind": "profile", "itemKey": "p-guest", "removedAtMillis": 80},
+    {"profileSyncId": "p-owner", "kind": "hiddenChannel", "itemKey": "https://www.youtube.com/channel/UCeeeeeeeeeeeeeeeeeeeeee", "removedAtMillis": 630},
+    {"profileSyncId": "p-owner", "kind": "hiddenVideo", "itemKey": "v10jjjjjjjj", "removedAtMillis": 605},
+    {"profileSyncId": "p-owner", "kind": "playlistItem", "itemKey": "watch-later/v8hhhhhhhhh", "removedAtMillis": 420},
+    {"profileSyncId": "p-owner", "kind": "subscription", "itemKey": "https://www.youtube.com/channel/UCcccccccccccccccccccccc", "removedAtMillis": 150}
+  ]
+}

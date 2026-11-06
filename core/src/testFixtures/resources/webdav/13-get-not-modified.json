@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/remote.php/dav/files/smoke/Ayn/0f3c2a9e-device-a.ayn",
+    "headers": {
+      "User-Agent": "Ayn (Android)",
+      "Authorization": "Basic c21va2U6QVBQLVBBU1NXT1JE",
+      "If-None-Match": "\"bf2d0100e1494a275824e5b0a21398f7\""
+    },
+    "body": null
+  },
+  "response": {
+    "code": 304,
+    "headers": {
+      "ETag": "\"bf2d0100e1494a275824e5b0a21398f7\""
+    },
+    "body": ""
+  }
+}

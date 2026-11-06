@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&fields=id%2Cname%2Cmd5Checksum%2CmodifiedTime%2Csize",
+    "headers": {
+      "User-Agent": "Ayn (Android)",
+      "Authorization": "Bearer ACCESS-TOKEN",
+      "Content-Type": "multipart/related; boundary=BOUNDARY"
+    },
+    "body": "--BOUNDARY\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n{\"name\": \"smoke-device.ayn\", \"parents\": [\"FOLDER-ID\"]}\r\n--BOUNDARY\r\nContent-Type: application/octet-stream\r\n\r\nAYN-SYNC-SMOKE 95cd68af075885d30ec97573fbd72925\r\n--BOUNDARY--\r\n"
+  },
+  "response": {
+    "code": 200,
+    "headers": {
+      "content-type": "application/json; charset=UTF-8"
+    },
+    "body": "{\n  \"id\": \"FILE-ID-08\",\n  \"name\": \"smoke-device.ayn\",\n  \"modifiedTime\": \"2026-11-03T00:31:12.476Z\",\n  \"md5Checksum\": \"658b2ab69b6cac4754266667fb4a2767\",\n  \"size\": \"47\"\n}\n"
+  }
+}

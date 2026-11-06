@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- YouTube KE (spec 12 KP-D27, KP-D30): hosts yt-dlp EJS (yt.solver.lib.min.js +
+     yt.solver.core.min.js, vendored beside this file) in a Web Worker; EjsNChallengeSolver drives
+     it through the KeEjs interface. The page's main thread never evaluates EJS: its location shim
+     navigates the page (yt-dlp/ejs#76). -->
+<html><body>
+<script type="text/plain" id="worker">
+// The EJS-preprocessed player for one player code, kept between requests.
+let prepared = null;
+
+function solve(message) {
+  if (message.op === "prepare") {
+    if (!prepared || prepared.key !== message.key) {
+      prepared = null;
+      const result = jsc({ type: "player", player: message.player, requests: [], output_preprocessed: true });
+      if (result.type !== "result") throw new Error(result.error || "preprocess failed");
+      prepared = { key: message.key, player: result.preprocessed_player };
+    }
+    return { ok: true };
+  }
+  if (!prepared || prepared.key !== message.key) return { unprepared: true };
+  const result = jsc({
+    type: "preprocessed",
+    preprocessed_player: prepared.player,
+    requests: [{ type: "n", challenges: [message.challenge] }],
+  });
+  const response = result.type === "result" ? result.responses[0] : result;
+  const value = response.type === "result" ? response.data[message.challenge] : null;
+  return value ? { value } : { error: response.error || "no answer" };
+}
+
+onmessage = (event) => {
+  let reply;
+  try {
+    reply = solve(event.data);
+  } catch (error) {
+    reply = { error: String(error) };
+  }
+  postMessage(reply);
+};
+</script>
+<script>
+const worker = new Worker(URL.createObjectURL(new Blob([
+  KeEjs.lib(), "\nObject.assign(globalThis, lib);\n", KeEjs.core(), "\n",
+  document.getElementById("worker").textContent,
+], { type: "text/javascript" })));
+worker.onmessage = (event) => KeEjs.reply(JSON.stringify(event.data));
+worker.onerror = (event) => KeEjs.failed(String(event.message));
+
+function keEjsSend() {
+  worker.postMessage({ op: KeEjs.op(), key: KeEjs.key(), player: KeEjs.player(), challenge: KeEjs.challenge() });
+}
+
+KeEjs.ready();
+</script>
+</body></html>

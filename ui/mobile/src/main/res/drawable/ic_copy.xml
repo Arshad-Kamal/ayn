@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cinema icon "copy" (m8-sync-phone ICON set, 24-unit grid, 1.9 stroke). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M10.5,8.5H17.5A2,2 0,0 1,19.5 10.5V17.5A2,2 0,0 1,17.5 19.5H10.5A2,2 0,0 1,8.5 17.5V10.5A2,2 0,0 1,10.5 8.5Z"
+        android:strokeWidth="1.9"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M15.5,8.5V6A1.5,1.5 0,0 0,14 4.5H6A1.5,1.5 0,0 0,4.5 6V14A1.5,1.5 0,0 0,6 15.5H8.5"
+        android:strokeWidth="1.9"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>
