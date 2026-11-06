@@ -70,6 +70,19 @@ import com.arshad.ayn.core.kids.KidsTime
 import com.arshad.ayn.ui.tv.common.TOAST_MS
 import com.arshad.ayn.ui.tv.theme.KeMotion
 import kotlin.time.Duration.Companion.minutes
+import kotlin.time.TimeSource
+import kotlinx.coroutines.flow.flowOf
+import com.arshad.ayn.core.lock.FakeProfileLocks
+import com.arshad.ayn.core.store.FakeFilterStore
+import com.arshad.ayn.feature.kids.ParentViewModel
+import com.arshad.ayn.feature.kids.ParentReviewViewModel
+import com.arshad.ayn.core.store.ProfileSession
+import com.arshad.ayn.core.store.FakeKidsTimeStore
+import com.arshad.ayn.core.store.FakeWatchStore
+import com.arshad.ayn.core.store.FakeKidsReviewKeeps
+import com.arshad.ayn.core.access.ServerClock
+import com.arshad.ayn.feature.subscriptions.SubscriptionsFeed
+import com.arshad.ayn.feature.home.KidsPicks
 import kotlinx.coroutines.CompletableDeferred
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
@@ -503,6 +516,57 @@ class TvShellTest {
 
         assertNull(clock.warning.value)
         compose.onNode(hasText("5 minutes left today")).assertDoesNotExist()
+    }
+
+    /** The Parent page's head holds the top end (`kp-kids` parent), so the time left leaves it
+     *  and comes back on Home. */
+    @Test
+    fun theParentPageHidesTheTimeLeft() {
+        val clock = FakeKidsClock()
+        clock.time.value = KidsTime.Left(48.minutes)
+        val kid = TestKidOpening.profile
+        val parent = ParentModels(
+            page = { kidId, leave ->
+                ParentViewModel(
+                    kidId,
+                    FakeProfileStore(listOf(TestProfile, kid)),
+                    FakeProfileLocks().apply {
+                        ownerId = TestProfile.id
+                        kids += kid.id
+                    },
+                    FakeFilterStore(),
+                    leave,
+                    TimeSource.Monotonic,
+                )
+            },
+            review = {
+                ParentReviewViewModel(
+                    ProfileSession().apply { select(kid.id) },
+                    FakeFilterStore(),
+                    FakeKidsTimeStore(),
+                    FakeWatchStore(),
+                    FakeSubscriptionStore(),
+                    SubscriptionsFeed(HomeExtractor()),
+                    FakeKidsReviewKeeps(),
+                    ServerClock(TimeSource.Monotonic),
+                )
+            },
+        )
+        installOfflineImageLoader(compose.activity)
+        compose.setContent {
+            TestShell(opening = TestKidOpening, kids = KidsShell(clock, parent) { flowOf(KidsPicks.None) })
+        }
+        compose.waitForIdle()
+        compose.onNode(hasText("48 min left today")).assertExists()
+
+        selectInRail("Parent")
+
+        compose.onNode(hasText("Daily limits")).assertExists()
+        compose.onNode(hasText("48 min left today")).assertDoesNotExist()
+
+        selectInRail("Home", current = "Parent")
+
+        compose.onNode(hasText("48 min left today")).assertExists()
     }
 
     @Test

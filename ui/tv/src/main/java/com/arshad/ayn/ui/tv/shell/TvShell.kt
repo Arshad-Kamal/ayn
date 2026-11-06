@@ -164,7 +164,8 @@ private val RecededShift = 30.dp
  * Every card menu blocks through [menuBlocking] (KP-D19), and the open profile's [contentFilter]
  * reaches the screens as [LocalContentFilter], so a block takes cards already shown out at once.
  * A kids profile's shell ([kids], `kp-kids` kidhome) has Home, Search and the Parent page, Home
- * with the owner's picks, its time left today at the top end on every page but the player, and its
+ * with the owner's picks, its time left today at the top end on every page but the player and the
+ * Parent page (whose page head holds that corner, `kp-kids` parent), and its
  * time warnings at the bottom end on every page (warn5, warn1); its channel pages and player have
  * no Subscribe, and no Turn on Shorts (KP-D11, D12). The player's picture goes to
  * [ShellOpening.onPicture], for Time's up to draw over (KP-D26). Home and Subscriptions learn
@@ -276,6 +277,7 @@ internal fun TvShell(
         kidsShell?.clock?.consumeWarning()
     }
     val onHome = NavDestination.Companion.run { backStackEntry?.destination?.hasRoute(HomeRoute::class) == true }
+    val onParent = NavDestination.Companion.run { backStackEntry?.destination?.hasRoute(ParentRoute::class) == true }
     // Time's up draws over the player's picture (KP-D26); only a recomposition here changes it.
     val playerPicture = remember(backStackEntry, onPlayer) { backStackEntry?.takeIf { onPlayer }?.toRoute<PlayerRoute>()?.thumbnailUrl }
     SideEffect { opening.onPicture(playerPicture) }
@@ -491,7 +493,7 @@ internal fun TvShell(
                 )
             }
             AnimatedVisibility(
-                visible = !onPlayer && timeLeft != null,
+                visible = !onPlayer && !onParent && timeLeft != null,
                 enter = fadeIn(KeMotion.base()),
                 exit = fadeOut(KeMotion.base()),
                 modifier = Modifier
